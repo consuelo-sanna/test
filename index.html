@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BarbART</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/iconTab.png">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Barbara ART</h1></a>
+            <p>
+              <a href="index.html">
+              <img src="images/original-logo.png" alt="Original certification" class="hidden-md hidden-lg">
+              <span>Original</span>
+              </a>
+            </p>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-picture"></span><br class="hidden-xs"> Paintings</a>
+            </li>
+            <li>
+              <a href="#" >
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#" onclick="$dc.loadOtherCategories();">
+                <span class="glyphicon glyphicon-gift"></span><br class="hidden-xs"> Others</a>
+            </li>
+            <li id="email" class="hidden-xs">
+              <a href="mailto:BarbarArt@gmail.com" target="_blank">
+                <span>BarbarArt@gmail.com</span></a><div>* Contact Me!</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="email-btn" class="visible-xs">
+    <a class="btn" href="mailto:BarbarArt@gmail.com">
+    <span class="glyphicon glyphicon-envelope"></span>
+    BarbarArt@gmail.com
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* Contact Me !</div>
+
+  <div id="main-content" class="container"></div>
+
+  <footer class="panel-footer">
+   
+      <div class="text-center">&copy; 2019 BARBARA ART. ALL RIGHTS RESERVED.</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

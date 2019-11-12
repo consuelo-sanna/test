@@ -1,0 +1,25 @@
+<!-- snippet che viene caricato nella pagina quando viene richiamata la home -->
+
+
+    <div class="jumbotron">
+      <img src="images/jumbotron_768.jpg" alt="Picture of Barbara" class="img-responsive visible-xs">
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="#" onclick="$dc.loadMenuCategories();"><div id="paintings-tile"><span>Paintings</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="#" onclick="$dc.loadOtherCategories();">
+          <div id="specials-tile"><span>Others</span></div>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="#" onclick="$dc.loadMenuItems('SP');">
+          <div id="clocks-tile">
+           
+            <span>Clocks</span>
+          </div>
+        </a>
+      </div>
+    </div><!-- End of #home-tiles -->

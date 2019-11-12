@@ -1,0 +1,10 @@
+[{"id":81,"short_name":"A","name":"Astratti","special_phrase":"General phrase on abstract art. It can be as long as you want, this is just an example.","url":"#"},
+{"id":82,"short_name":"PF","name":"Paesaggi","special_instructions":"General phrase on landsacpe art.","url":"#"},
+{"id":83,"short_name":"V","name":"Colore","special_instructions":"General phrase on stone art.","url":"#"},
+{"id":84,"short_name":"FR","name":"Preferiti","special_instructions":"My favourite pieces.","url":"#"},
+{"id":85,"short_name":"C","name":"Pietra","special_instructions":"General phrase on colorfull art.","url":"#"},
+{"id":86,"short_name":"F","name":"Prova1","special_instructions":"","url":"#"},
+{"id":87,"short_name":"D","name":"Prova2","special_instructions":"","url":"#"},
+
+
+{"id":100,"short_name":"SR","name":"Prova3","special_instructions":"General phrase bla bla bla.","url":"#"}]

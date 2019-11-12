@@ -1,0 +1,8 @@
+il sito creato dal corso per creare dinamicamente la pagina delle categorie si appoggiava ad un applicazione esterna.
+questa applicazione esponeva un file json che permetteva di eseguire le corrette sostituzione e la creazione della pagina.
+non avendo a disposizione l'applicazione ho sostituito questo passaggio con dei file json per le prime categorie, 
+perchè non essendo da ciclare mi bastava.
+
+per le categorie interne (dentro paintings astratti ad esempio) per la creazione della pagina vengono utilizzati dei cicli
+e per mantenere più simile il funzionamento ho deciso di creare delle pagine html che espongono lo stesso tipo di file
+della seconda applicazione che si trova in : https://davids-restaurant.herokuapp.com/menu_items.json?category=PF
